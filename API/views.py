@@ -210,10 +210,13 @@ def checkio(request, list_id):
                         return Response(serializer.data)
             else:
 
+                contex = 'U Could not  Submit Attendance With This Time'
+                return Response(contex)
 
-                return HttpResponseRedirect("/employee/login")
         else:
-            print('U Couldnot  Submit Attendance With This Device')
+
+            contex = 'U Couldnot  Submit Attendance With This Device'
+            return Response(contex)
     except:
         contex = 'Unauthenticated'
         return Response(contex)

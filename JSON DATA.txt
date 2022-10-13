@@ -25,7 +25,7 @@ attendance
         "user": 8
     }
 
-CheckIN
+CheckIN OR CHECKOUT
 {
     
     "Check": 1
