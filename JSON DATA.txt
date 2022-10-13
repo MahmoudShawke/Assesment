@@ -1,0 +1,32 @@
+
+Register
+{
+   
+    "first_name": "Mahmoud",
+    "last_name": "Shawkyyyy",
+    "email": "mahmoudshawky@YAHOO.COM",
+    "password": "123456"
+
+}
+Login
+
+{
+
+    "email": "mahmoudshawky@YAHOO.COM",
+    "password": "123456"
+
+}
+
+attendance
+
+    {
+        "id": 20,
+        "description": "First Day",
+        "user": 8
+    }
+
+CheckIN
+{
+    
+    "Check": 1
+}
